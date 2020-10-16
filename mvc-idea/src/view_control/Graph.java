@@ -2,6 +2,7 @@ package view_control;
 //todo: allow user to specify magnitude of graph (ie how much it is zoomed in)
 //for instance: magnitude 0.1 mean every dot on the graph is 0.1
 //achieve this by multiplying all values by 10 before rounding to int
+//todo: allow user to choose between cubic (done), more polynomial (expand to allow all polynomials: ask for coef and exponent; ask until user chooses graph, only provide approx solutions by checking in the 2d array where y = 50, y-int by pluggin in zero), exponential/root, log
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
